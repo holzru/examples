@@ -1,5 +1,4 @@
 def meters(x):
-def meters(x):
     print x
     if x >= 10**24:
         print "{}Ym".format(int(x)/10**24 if float(x)/10**24 == int(x)/10**24 else float(x)/10**24)
